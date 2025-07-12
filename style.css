@@ -167,7 +167,7 @@ header {
 }
 
 .title h2 {
-  font-family: "Oswald" , sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 2.8rem;
   text-transform: uppercase;
   position: relative;
@@ -235,21 +235,21 @@ header {
 .product-category {
   color: var(--red);
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 .product-name {
-  font-family: "Oswald" , sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .product-price {
   font-weight: 700;
   font-size: 1.4rem;
-  margin: .5rem 0 1rem;
+  margin: 0.5rem 0 1rem;
 }
 
 .rating {
@@ -261,4 +261,31 @@ header {
   display: block;
   width: 210px;
   margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+  }
+
 }
