@@ -151,10 +151,10 @@ header {
     background: transparent;
     border: 2px solid var(--white);
     margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .btn-1:hover {
     background: var(--white);
     color: var(--red);
-
 }
